@@ -36,6 +36,7 @@ defmodule PhoenixGon.Mixfile do
 
   defp deps do
     [
+      {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:poison, "~> 3.0", optional: true},
       {:phoenix_html, "~> 2.7"},
